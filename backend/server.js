@@ -12,7 +12,7 @@ app.use(cors());
 
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/dashboardDB';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://bokamaravind_db_user:Aravind@007@cluster0.mfyvep3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 
 mongoose.connect(MONGO_URI)
