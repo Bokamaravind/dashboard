@@ -12,7 +12,7 @@ app.use(cors());
 
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://bokamaravind_db_user:9qpQ4mDyd51rVpNz@cluster0.mfyvep3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://bokamaravind_07:h6O9pI0zPx536SUD@cluster0.mfyvep3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 
 mongoose.connect(MONGO_URI)
