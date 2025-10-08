@@ -29,7 +29,7 @@ ChartJS.register(
 
 // Main Dashboard Component
 export default function Dashboard() {
-  const API = import.meta.env.VITE_API_URL || "https://dashboard-5cje-git-main-bokams-projects.vercel.app";
+  const API = import.meta.env.VITE_API_URL || "https://dashboard-4-cbr7.onrender.com";
 
   // State
   const [salesByDay, setSalesByDay] = useState([]);
