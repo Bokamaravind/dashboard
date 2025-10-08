@@ -23,4 +23,9 @@ mongoose.connect(MONGO_URI)
 app.use('/api', apiRoutes);
 app.use('/', apiRoutes);
 
+app.get('/', (req, res) => {
+  res.send('API backend server is working!');
+});
+
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
